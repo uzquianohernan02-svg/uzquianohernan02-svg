@@ -1,123 +1,198 @@
-<h1 align="center">Hi, I'm Hernan Uzquiano 👋</h1>
-<h3 align="center">Mobile Engineer · Full-Stack Developer · AI Engineer</h3>
-
+<!-- Header -->
 <p align="center">
-  📍 Buenos Aires, Argentina · 🌎 Open to fully remote opportunities
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=210&section=header&text=Hernan%20Uzquiano&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Mobile%20%C2%B7%20Full-Stack%20%C2%B7%20AI%20Engineer&descAlignY=56&descSize=18&animation=fadeIn" width="100%" alt="Hernan Uzquiano — Mobile · Full-Stack · AI Engineer"/>
 </p>
 
 <p align="center">
-  <a href="mailto:uzquianohernan02@gmail.com"><img src="https://img.shields.io/badge/Email-uzquianohernan02%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://linkedin.com/in/uzquiano"><img src="https://img.shields.io/badge/LinkedIn-uzquiano-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://linkedin.com/in/uzquiano">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=2F81F7&center=true&vCenter=true&width=640&lines=Native+Android+%26+iOS+engineer;React+Native+%26+Flutter+at+scale;Full-stack%3A+React%2C+Next.js%2C+NestJS%2C+Python;Building+AI+agents+%26+streaming+AI+UIs;~10+years+shipping+production+software" alt="Typing headline"/>
+  </a>
 </p>
 
----
+<p align="center">
+  <a href="https://linkedin.com/in/uzquiano"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:uzquianohernan02@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <img src="https://img.shields.io/badge/Buenos%20Aires-Remote-2C5364?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Buenos Aires · Remote"/>
+  <img src="https://komarev.com/ghpvc/?username=uzquianohernan02-svg&style=for-the-badge&color=203A43&label=Profile+views" alt="Profile views"/>
+</p>
 
-## 🧑‍💻 About me
+<br/>
 
-I'm a software engineer with about **10 years of experience** building production software across **mobile, web, backend and AI-enabled applications**.
+## 👨‍💻 About me
 
-- 📱 **Mobile:** native Android (Kotlin, Java) and iOS (Swift, Objective-C), plus cross-platform apps with React Native and Flutter.
-- 🌐 **Full-stack:** React, Next.js, Angular, Node.js, NestJS, Python and PostgreSQL, deployed on AWS.
-- 🤖 **AI:** production financial systems and AI agents built with Python and the OpenAI Agents SDK; conversational and streaming AI interfaces, speech-to-text and image recognition; daily use of Claude and Claude Code.
-- 🏗️ **Architecture:** offline-first mobile infrastructure, real-time apps, REST APIs, cloud integrations and production release workflows.
-- 💼 **Industries:** fintech, blockchain, insurance, construction technology, online education, video streaming and digital coaching.
+```kotlin
+data class Engineer(
+    val name: String        = "Hernan Uzquiano",
+    val location: String    = "Buenos Aires, Argentina 🇦🇷 · open to fully remote",
+    val experience: String  = "~10 years in production software",
+    val roles: List<String> = listOf("Mobile Engineer", "Full-Stack Developer", "AI Engineer"),
+    val mobile: List<String> = listOf("Kotlin", "Jetpack Compose", "Swift", "SwiftUI", "React Native", "Flutter"),
+    val web: List<String>    = listOf("React 19", "Next.js", "Angular", "NestJS", "Node.js", "Python"),
+    val ai: List<String>     = listOf("OpenAI Agents SDK", "Claude & Claude Code", "Streaming UIs", "Speech-to-text", "Image recognition"),
+    val domains: List<String> = listOf("Fintech", "Blockchain", "Insurance", "ConTech", "EdTech", "Streaming", "Coaching"),
+    val languages: List<String> = listOf("Spanish (native)", "English (professional)"),
+)
+```
+
+- 📱 I build **native Android and iOS** apps and **cross-platform** apps with React Native and Flutter. That includes offline-first infrastructure: sync, queued operations, retries and conflict resolution.
+- 🌐 I ship **full-stack** products: React and Next.js frontends, NestJS, Node.js and Python backends, PostgreSQL, and AWS.
+- 🤖 I build **AI features in production**: Python agents with the OpenAI Agents SDK, and conversational and streaming interfaces with speech-to-text and image recognition.
+- 💳 I've worked on **payments hardware**: NFC, EMV and ISO 8583 on PAX, Sunmi, Ingenico and Verifone terminals.
+
+<br/>
 
 ## 🛠️ Tech stack
 
-**Mobile**
+<table>
+  <tr>
+    <td align="center" width="140"><b>Mobile</b></td>
+    <td><img src="https://skillicons.dev/icons?i=kotlin,java,androidstudio,swift,apple,flutter,dart&perline=10" alt="Mobile"/><br/><sub>Jetpack Compose · Coroutines/Flow · Room · Hilt · SwiftUI · Combine · StoreKit 2 · React Native · Expo</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Frontend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=react,nextjs,angular,ts,js,html,css,redux&perline=10" alt="Frontend"/><br/><sub>React 19 · Next.js App Router · Server Components · Design systems · Accessibility</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Backend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,py,django,fastapi,dotnet,php,spring,go&perline=10" alt="Backend"/><br/><sub>REST APIs · WebSockets · Micronaut · Grails · Groovy</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Data</b></td>
+    <td><img src="https://skillicons.dev/icons?i=postgres,sqlite,dynamodb&perline=10" alt="Data"/><br/><sub>OpenSearch · Migrations · Local persistence & sync</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Cloud & DevOps</b></td>
+    <td><img src="https://skillicons.dev/icons?i=aws,kubernetes,githubactions,azure,git&perline=10" alt="Cloud and DevOps"/><br/><sub>API Gateway · Lambda · CircleCI · Fastlane · Xcode Cloud · LaunchDarkly · PostHog · Sentry</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><b>AI</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/OpenAI%20Agents%20SDK-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI Agents SDK"/>
+      <img src="https://img.shields.io/badge/Claude%20%26%20Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude"/>
+      <img src="https://img.shields.io/badge/Speech--to--text-0F2027?style=flat-square&logo=googleassistant&logoColor=white" alt="Speech-to-text"/>
+      <img src="https://img.shields.io/badge/Image%20recognition-203A43?style=flat-square&logo=opencv&logoColor=white" alt="Image recognition"/>
+      <img src="https://img.shields.io/badge/Streaming%20AI%20UIs-2C5364?style=flat-square&logo=lightning&logoColor=white" alt="Streaming AI UIs"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Testing</b></td>
+    <td><img src="https://skillicons.dev/icons?i=jest&perline=10" alt="Testing"/><br/><sub>JUnit · Mockito · Espresso · Compose UI tests · XCTest/XCUITest · React Testing Library</sub></td>
+  </tr>
+</table>
 
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-0D96F6?style=flat-square&logo=swift&logoColor=white)
-![React Native](https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-**Backend**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-
-**Data**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
-![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white)
-
-**AI**
-
-![OpenAI Agents SDK](https://img.shields.io/badge/OpenAI%20Agents%20SDK-412991?style=flat-square&logo=openai&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude%20%26%20Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
-
-**Cloud and DevOps**
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![CircleCI](https://img.shields.io/badge/CircleCI-343434?style=flat-square&logo=circleci&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white)
-![Fastlane](https://img.shields.io/badge/Fastlane-00F200?style=flat-square&logo=fastlane&logoColor=black)
-![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
-![PostHog](https://img.shields.io/badge/PostHog-000000?style=flat-square&logo=posthog&logoColor=white)
-![LaunchDarkly](https://img.shields.io/badge/LaunchDarkly-405BFF?style=flat-square&logo=launchdarkly&logoColor=white)
-
-**Testing**
-
-![JUnit](https://img.shields.io/badge/JUnit-25A162?style=flat-square&logo=junit5&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
-![Testing Library](https://img.shields.io/badge/Testing%20Library-E33332?style=flat-square&logo=testinglibrary&logoColor=white)
-![XCTest](https://img.shields.io/badge/XCTest-147EFB?style=flat-square&logo=xcode&logoColor=white)
+<br/>
 
 ## 💼 Experience
 
-**Senior Software Engineer · AccelOne** · *Feb 2024 – present*
-Production mobile and full-stack applications with Kotlin, Swift, React Native, Flutter, Angular, NestJS and AWS. I build offline-first mobile infrastructure (sync, queued operations, retries, conflict resolution) and streaming AI interfaces with speech-to-text and image recognition, and I contribute to CI/CD and release workflows.
+<details open>
+<summary><b>Senior Software Engineer · AccelOne</b> &nbsp;·&nbsp; <i>Feb 2024 – present</i></summary>
+<br/>
 
-**Software Engineer · Rootstrap** · *Apr 2021 – Jan 2024*
-Web and mobile applications with React, React Native and Angular. I built production financial systems and AI agents with Python and the OpenAI Agents SDK, real-time features with WebSockets, shared design-system components, and automated tests with Jest and React Testing Library. I also mentored developers.
+- I build production mobile and full-stack apps with Kotlin, Swift, React Native, Flutter, Angular, NestJS and TypeScript.
+- I build fintech applications with Angular, NestJS, PostgreSQL and AWS.
+- I built reusable offline-first mobile infrastructure: local persistence, sync, queued operations, retries and conflict resolution.
+- I improved Android performance and responsiveness, especially on lower-end devices.
+- I built conversational and streaming AI interfaces with speech-to-text and image recognition.
+- I built and maintain versioned e-signature and document-record features.
+- I contribute to CI/CD, monitoring, feature flags and releases with GitHub Actions, CircleCI, Azure DevOps, Kubernetes, Fastlane, Xcode Cloud, LaunchDarkly, PostHog and Sentry.
 
-**Software Engineer · Snoop Consulting** · *May 2017 – Mar 2021*
-Native Android and iOS payment applications. My work covered NFC (Core NFC, Android NFC, Host Card Emulation), EMV and ISO 8583, and integration with PAX, Sunmi, Ingenico and Verifone terminals.
+**Projects:** Billetera Activa · Project Site (Trimble) · Olivarch
+</details>
 
-## 🚀 Selected projects
+<details>
+<summary><b>Software Engineer · Rootstrap</b> &nbsp;·&nbsp; <i>Apr 2021 – Jan 2024</i></summary>
+<br/>
 
-| Project | What it is |
-|---|---|
-| **Billetera Activa** (Government of San Luis) | Blockchain-based digital wallet that uses tokens for educational awards |
-| **Project Site** (Trimble) | Construction-management mobile app for collaboration and real-time tracking |
-| **Olivarch** | AI-enabled insurance platform for medical spas: onboarding, claims and policies |
-| **MasterClass** | Online learning and video-streaming platform |
-| **BetterUp** | Digital coaching and employee-development platform |
+- I built production web and mobile apps with React, React Native, Angular and TypeScript.
+- I built production financial systems and **AI agents** with Python and the OpenAI Agents SDK.
+- I built backend services and APIs with Node.js, Express and PostgreSQL, and real-time features with WebSockets and Redux-Saga.
+- I designed shared infrastructure, reusable components and design-system capabilities.
+- I wrote automated tests with Jest and React Testing Library, and made accessibility improvements across web and mobile.
+- I mentored developers, wrote technical documentation and supported presales.
 
-## 🎓 Education and languages
+**Projects:** MasterClass · BetterUp
+</details>
 
-- 🎓 **Universidad Nacional del Litoral**: Engineering degree in Computer Science / Informatics (2012–2017)
-- 🗣️ Spanish (native) · English (professional working proficiency)
+<details>
+<summary><b>Software Engineer · Snoop Consulting</b> &nbsp;·&nbsp; <i>May 2017 – Mar 2021</i></summary>
+<br/>
 
----
+- I built native Android and iOS apps with Kotlin, Java, Swift and Objective-C.
+- I built payment apps that connect mobile software to payment hardware and backend services.
+- I implemented NFC with Core NFC, Android NFC, NDEF, ISO 14443 and Host Card Emulation.
+- I integrated EMV and ISO 8583 payments on PAX, Sunmi, Ingenico and Verifone terminals.
+</details>
 
-<p align="center"><i>Open to remote roles in mobile, full-stack and AI engineering. Feel free to reach out.</i></p>
+<br/>
+
+## 🚀 Featured work
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>💰 Billetera Activa</h4>
+      <sub>Government of San Luis, Argentina</sub>
+      <p>Blockchain-based digital wallet that uses digital tokens for educational awards and recognition.</p>
+      <img src="https://img.shields.io/badge/-Blockchain-0F2027?style=flat-square"/> <img src="https://img.shields.io/badge/-Mobile-203A43?style=flat-square"/>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🏗️ Project Site</h4>
+      <sub>Trimble</sub>
+      <p>Construction-management mobile app for project collaboration, tracking and real-time visibility.</p>
+      <img src="https://img.shields.io/badge/-ConTech-0F2027?style=flat-square"/> <img src="https://img.shields.io/badge/-Mobile-203A43?style=flat-square"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🩺 Olivarch</h4>
+      <sub>AI-enabled insurance platform</sub>
+      <p>Insurance platform for medical spas covering onboarding, claims and policy management.</p>
+      <img src="https://img.shields.io/badge/-AI-0F2027?style=flat-square"/> <img src="https://img.shields.io/badge/-Insurtech-203A43?style=flat-square"/>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🎬 MasterClass</h4>
+      <sub>Online learning & video streaming</sub>
+      <p>Embedded React engineering work supporting the platform's growth and scaling.</p>
+      <img src="https://img.shields.io/badge/-React-0F2027?style=flat-square"/> <img src="https://img.shields.io/badge/-Streaming-203A43?style=flat-square"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h4>🌱 BetterUp</h4>
+      <sub>Digital coaching & employee development</sub>
+      <p>Product work on enterprise capabilities and international expansion.</p>
+      <img src="https://img.shields.io/badge/-Web-0F2027?style=flat-square"/> <img src="https://img.shields.io/badge/-Enterprise-203A43?style=flat-square"/>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+## 📊 GitHub stats
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=uzquianohernan02-svg&theme=github-dark-blue&hide_border=true&background=00000000"/>
+    <img src="https://streak-stats.demolab.com?user=uzquianohernan02-svg&hide_border=true&background=00000000" alt="GitHub streak"/>
+  </picture>
+</p>
+
+<p align="center">
+  <img src="https://ghchart.rshah.org/2F81F7/uzquianohernan02-svg" width="90%" alt="Contribution chart"/>
+</p>
+
+<br/>
+
+## 🎓 Education
+
+**Universidad Nacional del Litoral**: Engineering degree in Computer Science / Informatics · *2012 – 2017*
+
+<br/>
+
+<p align="center">
+  <i>Open to fully remote roles in mobile, full-stack and AI engineering. Let's build something great together.</i>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=110&section=footer" width="100%" alt=""/>
+</p>
