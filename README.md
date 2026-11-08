@@ -22,15 +22,19 @@
 
 ```kotlin
 data class Engineer(
-    val name: String        = "Hernan Uzquiano",
-    val location: String    = "Buenos Aires, Argentina 🇦🇷 · open to fully remote",
-    val experience: String  = "~10 years in production software",
-    val roles: List<String> = listOf("Mobile Engineer", "Full-Stack Developer", "AI Engineer"),
-    val mobile: List<String> = listOf("Kotlin", "Jetpack Compose", "Swift", "SwiftUI", "React Native", "Flutter"),
-    val web: List<String>    = listOf("React 19", "Next.js", "Angular", "NestJS", "Node.js", "Python"),
-    val ai: List<String>     = listOf("OpenAI Agents SDK", "Claude & Claude Code", "Streaming UIs", "Speech-to-text", "Image recognition"),
-    val domains: List<String> = listOf("Fintech", "Blockchain", "Insurance", "ConTech", "EdTech", "Streaming", "Coaching"),
-    val languages: List<String> = listOf("Spanish (native)", "English (professional)"),
+    val name       = "Hernan Uzquiano",
+    val location   = "Buenos Aires, Argentina · open to fully remote",
+    val experience = "~10 years in production software",
+    val roles      = listOf("Mobile Engineer", "Full-Stack Developer", "AI Engineer"),
+    val mobile     = listOf("Kotlin", "Jetpack Compose", "Swift", "SwiftUI",
+                            "React Native", "Flutter"),
+    val web        = listOf("React 19", "Next.js", "Angular", "NestJS",
+                            "Node.js", "Python"),
+    val ai         = listOf("OpenAI Agents SDK", "Claude & Claude Code",
+                            "Streaming UIs", "Speech-to-text", "Image recognition"),
+    val domains    = listOf("Fintech", "Blockchain", "Insurance", "ConTech",
+                            "EdTech", "Streaming", "Coaching"),
+    val languages  = listOf("Spanish (native)", "English (professional)"),
 )
 ```
 
