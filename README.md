@@ -20,23 +20,11 @@
 
 ## 👨‍💻 About me
 
-```kotlin
-object Engineer {
-    val name       = "Hernan Uzquiano"
-    val location   = "Buenos Aires, Argentina · open to fully remote"
-    val experience = "~10 years in production software"
-    val roles      = listOf("Mobile Engineer", "Full-Stack Developer", "AI Engineer")
-    val mobile     = listOf("Kotlin", "Jetpack Compose", "Swift", "SwiftUI",
-                            "React Native", "Flutter")
-    val web        = listOf("React 19", "Next.js", "Angular", "NestJS",
-                            "Node.js", "Python")
-    val ai         = listOf("OpenAI Agents SDK", "Claude & Claude Code",
-                            "Streaming UIs", "Speech-to-text", "Image recognition")
-    val domains    = listOf("Fintech", "Blockchain", "Insurance", "ConTech",
-                            "EdTech", "Streaming", "Coaching")
-    val languages  = listOf("Spanish (native)", "English (professional)")
-}
-```
+I'm a software engineer based in **Buenos Aires, Argentina**, with about **10 years of experience** designing, building and maintaining production software across mobile, web, backend and AI-enabled applications. I enjoy turning complex problems into reliable, well-architected products, and I'm open to **fully remote** opportunities.
+
+I've contributed to products in **fintech, blockchain, insurance, construction technology, online education, video streaming and digital coaching**. I speak Spanish (native) and English (professional working proficiency).
+
+**What I do:**
 
 - 📱 I build **native Android and iOS** apps and **cross-platform** apps with React Native and Flutter. That includes offline-first infrastructure: sync, queued operations, retries and conflict resolution.
 - 🌐 I ship **full-stack** products: React and Next.js frontends, NestJS, Node.js and Python backends, PostgreSQL, and AWS.
