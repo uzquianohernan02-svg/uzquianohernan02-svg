@@ -4,13 +4,13 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/uzquiano">
+  <a href="https://linkedin.com/in/hernan-uzquiano">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=2F81F7&center=true&vCenter=true&width=640&lines=Native+Android+%26+iOS+engineer;React+Native+%26+Flutter+at+scale;Full-stack%3A+React%2C+Next.js%2C+NestJS%2C+Python;Building+AI+agents+%26+streaming+AI+UIs;~10+years+shipping+production+software" alt="Typing headline"/>
   </a>
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/uzquiano"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://linkedin.com/in/hernan-uzquiano"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:uzquianohernan02@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <img src="https://img.shields.io/badge/Buenos%20Aires-Remote-2C5364?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Buenos Aires · Remote"/>
   <img src="https://komarev.com/ghpvc/?username=uzquianohernan02-svg&style=for-the-badge&color=203A43&label=Profile+views" alt="Profile views"/>
